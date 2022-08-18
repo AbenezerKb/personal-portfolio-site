@@ -9,7 +9,6 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-  
     align-items: center;
     text-align: center;
     color: #344563;
@@ -37,10 +36,8 @@
   .main-container {
     display: flex;
     justify-content: space-around;
-
     flex-direction: column;
     height: 100vh;
-
     background-image: url("header-shapes-mobile.svg");
     background-size: cover;
   }
