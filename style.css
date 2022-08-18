@@ -142,7 +142,6 @@
     justify-content: space-around;
     flex-direction: column;
     height: 65vh;
-   
   }
 
   .body-container {
@@ -198,6 +197,6 @@
     width: 15vh;
   }
 }
-ul{
+ul {
   list-style: none;
 }
