@@ -38,7 +38,6 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    flex-flow: column;
     height: 100vh;
     background-image: url("header-shapes-mobile.svg");
     background-size: cover;
@@ -48,7 +47,6 @@
     display: flex;
     align-self: center;
     justify-content: space-around;
-    flex-flow: column;
     flex-direction: column;
     align-content: center;
     height: 60vh;
@@ -147,7 +145,6 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    flex-flow: column;
     height: 65vh;
     background-image: url("header-shapes-mobile.png");
     background-size: cover;
@@ -157,7 +154,6 @@
     display: flex;
     align-self: center;
     justify-content: space-around;
-    flex-flow: column;
     flex-direction: column;
     align-content: center;
     height: 55vh;
@@ -253,7 +249,6 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    flex-flow: column;
     height: 65vh;
     background-image: url("header-shapes-mobile.png");
     background-size: cover;
@@ -263,7 +258,6 @@
     display: flex;
     align-self: center;
     justify-content: space-around;
-    flex-flow: column;
     flex-direction: column;
     align-content: center;
     height: 55vh;
