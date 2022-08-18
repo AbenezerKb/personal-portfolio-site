@@ -100,8 +100,8 @@
 
 @media (max-width: 600px) {
   .humberger {
-    width: 30px;
-    height: 4px;
+    width: 25px;
+    height: 3px;
     background-color: #acb7c3;
   }
 
@@ -122,7 +122,7 @@
   nav {
     display: flex;
     justify-content: space-between;
-    height: 35px;
+    height: 30px;
   }
 
   nav h3 {
@@ -142,8 +142,7 @@
     justify-content: space-around;
     flex-direction: column;
     height: 65vh;
-    background-image: url("header-shapes-mobile.png");
-    background-size: cover;
+   
   }
 
   .body-container {
@@ -154,6 +153,8 @@
     flex-direction: column;
     align-content: center;
     height: 55vh;
+    background-image: url("header-shapes-mobile.png");
+    background-size: cover;
   }
 
   .name {
@@ -194,6 +195,9 @@
   .social-media-icons {
     display: flex;
     justify-content: space-between;
-    width: 20vh;
+    width: 15vh;
   }
+}
+ul{
+  list-style: none;
 }
