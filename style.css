@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
 @media (min-width: 830px) {
   .nav-container {
     width: 40vh;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -23,18 +25,21 @@
     height: 35px;
   }
 
-  nav h3 {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+  nav a {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 20px;
+    text-decoration: none;
+    align-items: center;    
+    text-align: center;
+    color: #6070FF;
     display: flex;
-    align-items: center;
-    color: #6070ff;
+    align-items: center; 
   }
 
-  .main-container {
+  body {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -54,7 +59,7 @@
   }
 
   .name {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -65,7 +70,7 @@
   }
 
   .detail {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -75,7 +80,7 @@
   }
 
   .social-media-connect {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -83,9 +88,7 @@
     color: #7f8cff;
   }
 
-  nav a {
-    text-decoration: none;
-  }
+ 
 
   .social-media {
     display: flex;
@@ -126,22 +129,22 @@
     height: 30px;
   }
 
-  nav h3 {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+  nav a {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 14px;
+    line-height: 16px;
     display: flex;
     align-items: center;
     color: #6070ff;
-  }
-
-  nav a {
     text-decoration: none;
+    text-align: center;    
   }
 
-  .main-container {
+  
+
+  body {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -160,7 +163,7 @@
   }
 
   .name {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 55px;
@@ -172,17 +175,17 @@
   }
 
   .detail {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 19px;
     line-height: 28px;
     color: #344563;
-    width: 50vh;
+    width: 55vh;
   }
 
   .social-media-connect {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -229,23 +232,22 @@
     height: 25px;
   }
 
-  nav h3 {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+  nav a {   
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
-    font-weight: 800;
-    font-size: 16px;
-    line-height: 20px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
     display: flex;
     align-items: center;
-    text-align: center;
     color: #6070ff;
-  }
-
-  nav a {
     text-decoration: none;
+    text-align: center;    
   }
 
-  .main-container {
+  
+
+  body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -260,22 +262,22 @@
     justify-content: space-around;
     flex-direction: column;
     align-content: center;
-    height: 55vh;
+    height: 45vh;
   }
 
   .name {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 50px;
-    line-height: 45px;
+    font-size: 40px;
+    line-height: 40px;
     display: flex;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.37px;
     color: #091e42;
   }
 
   .detail {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -285,7 +287,7 @@
   }
 
   .social-media-connect {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
