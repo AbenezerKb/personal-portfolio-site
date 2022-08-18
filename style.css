@@ -1,0 +1,41 @@
+@media (max-width: 600px) {
+  .humberger {
+    width: 30px;
+    height: 4px;
+    background-color: #ACB7C3;
+    
+  }
+  
+  .humberger-container{
+  display: flex;
+  justify-content: space-around;  
+flex-direction: column;
+  }
+  
+  .humberger:hover{
+    background-color: #748392;
+  }
+
+  nav{
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+  } 
+  nav h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #6070FF;
+
+  }
+ 
+
+
+
+}
+
