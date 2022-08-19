@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 
 @media (min-width: 830px) {
   .nav-container {
@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -26,17 +26,16 @@
   }
 
   nav a {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 20px;
     text-decoration: none;
-    align-items: center;    
+    align-items: center;
     text-align: center;
-    color: #6070FF;
+    color: #6070ff;
     display: flex;
-    align-items: center; 
   }
 
   body {
@@ -56,11 +55,11 @@
     align-content: center;
     height: 60vh;
     width: 75vh;
-    padding: 128px 1.5rem 1.5rem 1.5rem
+    padding: 128px 1.5rem 1.5rem 1.5rem;
   }
 
   .name {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -71,7 +70,7 @@
   }
 
   .detail {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
@@ -81,15 +80,13 @@
   }
 
   .social-media-connect {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     color: #7f8cff;
   }
-
- 
 
   .social-media {
     display: flex;
@@ -99,7 +96,6 @@
   .social-media-icons {
     display: flex;
     justify-content: space-between;
-    
   }
 }
 
@@ -115,7 +111,7 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -125,7 +121,7 @@
   }
 
   .humberger-container {
-  display: none;
+    display: none;
   }
 
   .humberger:hover {
@@ -139,7 +135,7 @@
   }
 
   nav a {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -148,10 +144,8 @@
     align-items: center;
     color: #6070ff;
     text-decoration: none;
-    text-align: center;    
+    text-align: center;
   }
-
-  
 
   body {
     display: flex;
@@ -169,11 +163,11 @@
     flex-direction: column;
     align-content: center;
     height: 55vh;
-    padding: 128px 1.5rem 1.5rem 1.5rem
+    padding: 128px 1.5rem 1.5rem 1.5rem;
   }
 
   .name {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 55px;
@@ -185,7 +179,7 @@
   }
 
   .detail {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 19px;
@@ -195,7 +189,7 @@
   }
 
   .social-media-connect {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -222,10 +216,9 @@
     background-color: #acb7c3;
   }
 
-
-header{
-  padding: 1.5rem;
-}
+  header {
+    padding: 1.5rem;
+  }
 
   .nav-container {
     display: none;
@@ -247,8 +240,8 @@ header{
     height: 25px;
   }
 
-  nav a {   
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  nav a {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
@@ -257,13 +250,12 @@ header{
     align-items: center;
     color: #6070ff;
     text-decoration: none;
-    text-align: center;    
+    text-align: center;
   }
 
-
-  .social-media-icons li{    
+  .social-media-icons li {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
   }
 
   body {
@@ -286,7 +278,7 @@ header{
   }
 
   .name {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 40px;
@@ -297,7 +289,7 @@ header{
   }
 
   .detail {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -307,7 +299,7 @@ header{
   }
 
   .social-media-connect {
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -317,17 +309,17 @@ header{
 
   .social-media-icons {
     display: flex;
-    justify-content:space-between;
-width: 22vh;
+    justify-content: space-between;
+    width: 22vh;
     padding-left: 0;
   }
 
-  .social-media-icons  ul li{
+  .social-media-icons ul li {
     display: flex;
     justify-content: space-between;
+  }
 }
-}
+
 ul {
   list-style: none;
 }
-
