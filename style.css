@@ -1,0 +1,331 @@
+@import "https://fonts.googleapis.com/css?family=Poppins";
+
+@media (min-width: 830px) {
+  .nav-container {
+    width: 40vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    color: #344563;
+  }
+
+  .humberger-container {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    height: 35px;
+  }
+
+  nav a {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    color: #6070ff;
+    display: flex;
+  }
+
+  body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .body-container {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    height: 60vh;
+    width: 75vh;
+    padding: 128px 1.5rem 1.5rem;
+    background-image: url("header-shapes-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .name {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    display: flex;
+    letter-spacing: 0.4px;
+    color: #091e42;
+  }
+
+  .detail {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #344563;
+    width: 60vh;
+  }
+
+  .social-media-connect {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: start;
+  }
+
+  .social-media-icons {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 830px) {
+  .nav-container {
+    width: 30vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    color: #344563;
+  }
+
+  .humberger-container {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    margin-top: 0;
+  }
+
+  .logo {
+    padding-top: 0;
+    align-self: flex-start;
+  }
+
+  .logo h2 {
+    margin-top: 0;
+  }
+
+  nav a {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    color: #6070ff;
+    display: flex;
+  }
+
+  body {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 65vh;
+  }
+
+  .body-container {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    height: 10vh;
+    background-image: url("header-shapes-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 140px 1.5rem 1.5rem;
+  }
+
+  .name {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    color: #091e42;
+  }
+
+  .detail {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #344563;
+    width: 55vh;
+  }
+
+  .social-media-connect {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social-media-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 15vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .humberger {
+    width: 25px;
+    height: 2px;
+    background-color: #6070ff;
+  }
+
+  header {
+    padding: 1.5rem;
+  }
+
+  .nav-container {
+    display: none;
+  }
+
+  .humberger-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 20px;
+  }
+
+  .humberger:hover {
+    background-color: #748392;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    height: 25px;
+  }
+
+  nav a {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #6070ff;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .social-media-icons li {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 65vh;
+  }
+
+  .body-container {
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    height: 45vh;
+    background-image: url("header-shapes-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .name {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    display: flex;
+    letter-spacing: 0.37px;
+    color: #091e42;
+    margin-bottom: -9px;
+  }
+
+  .detail {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    color: #344563;
+    width: 40vh;
+  }
+
+  .social-media-connect {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    margin-top: -5px;
+  }
+
+  .social-media-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 22vh;
+    padding-left: 0;
+    margin-top: -10px;
+  }
+
+  .social-media-icons ul li {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+ul {
+  list-style: none;
+}
