@@ -266,6 +266,7 @@
     justify-content: space-between;
     flex-direction: column;
     height: 65vh;
+   
   }
 
   .body-container {
@@ -324,6 +325,423 @@
     display: flex;
     justify-content: space-between;
   }
+
+  .second-section {
+    margin-top: 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 300px;
+    /* margin-left: 35px; */
+    align-self: center;
+  }
+  .second-section h1 {
+    text-align: left;
+    width: 295px;
+    height: 36px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .second-section p {
+    margin-top: -5px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    color: #344563;
+  }
+
+  .title-section .canopy {
+    list-style-type: none;
+  }
+  .title-section .backend {
+    list-style-type: disc;
+  }
+
+  .title-section .year {
+    list-style-type: disc;
+  }
+
+  .language-section {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 230px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 12px;
+    padding-left: 0;
+    border-radius: 8px;
+  }
+  .language-section li {
+    padding: 4px 12px;
+    background: #ebebff;
+    border-radius: 8px;
+  }
+
+  .second-section input {
+    border: 1px #6070ff solid;
+    width: 130px;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 50px;
+    background-color: white;
+    color: #396DF2;
+  }
+
+  .third-section {
+    margin-top: 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 300px;
+    /* margin-left: 35px; */
+    align-self: center;
+  }
+  .third-section h1 {
+    text-align: left;
+    width: 295px;
+    height: 36px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .third-section p {
+    margin-top: -5px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    color: #344563;
+  }
+ 
+  .title-section .canopy {
+    list-style-type: none;
+  }
+  .title-section .backend {
+    list-style-type: disc;
+  }
+
+  .title-section .year {
+    list-style-type: disc;
+  }
+
+  .language-section {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 230px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 12px;
+    padding-left: 0;
+    border-radius: 8px;
+  }
+  .language-section li {
+    padding: 4px 12px;
+    background: #ebebff;
+    border-radius: 8px;
+  }
+
+  .third-section input {
+    border: 1px #6070ff solid;
+    width: 130px;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 50px;
+    background-color: white;
+    color: #396DF2;
+  }
+
+
+  .fourth-section {
+    margin-top: 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 300px;
+    /* margin-left: 35px; */
+    align-self: center;
+  }
+  .fourth-section h1 {
+    text-align:start;
+    width: 295px;
+    height: 36px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .fourth-section p {
+    margin-top: -5px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    color: #344563;
+  }
+  
+  .title-section .canopy {
+    list-style-type: none;
+  }
+  .title-section .backend {
+    list-style-type: disc;
+  }
+
+  .title-section .year {
+    list-style-type: disc;
+  }
+
+  .language-section {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 230px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 12px;
+    padding-left: 0;
+    border-radius: 8px;
+  }
+  .language-section li {
+    padding: 4px 12px;
+    background: #ebebff;
+    border-radius: 8px;
+  }
+
+  .fourth-section input {
+    border: 1px #6070ff solid;
+    width: 130px;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 50px;
+    background-color: white;
+    color: #396DF2;
+  }
+
+
+  .fivth-section {
+    margin-top: 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 300px;
+    /* margin-left: 35px; */
+    align-self: center;
+  }
+  .fivth-section h1 {
+    text-align: left;
+    width: 295px;
+    height: 36px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .fivth-section p {
+    margin-top: -5px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    color: #344563;
+  }
+
+  .title-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-left: -47px;
+    width: 421px;
+    color: #7A869A;
+  }
+  .title-section .canopy {
+    list-style-type: none;
+  }
+  .title-section .backend {
+    list-style-type: disc;
+  }
+
+  .title-section .year {
+    list-style-type: disc;
+  }
+
+  .language-section {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 230px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 12px;
+    padding-left: 0;
+    border-radius: 8px;
+  }
+  .language-section li {
+    padding: 4px 12px;
+    background: #ebebff;
+    border-radius: 8px;
+  }
+
+  .fivth-section input {
+    border: 1px #6070ff solid;
+    width: 130px;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 50px;
+    background-color: white;
+    color: #396DF2;
+  }
+
+
+
+  .about-section {
+    margin-top: 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 300px;
+    /* margin-left: 35px; */
+    align-self: center;
+  }
+  .about-section h1 {
+    text-align: left;
+    width: 295px;
+    height: 36px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .about-section .about-myself {
+    text-align: left;
+    width: 295px;
+    height: 75px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;    
+    color: #172B4D;
+  }
+  
+  .about-section p {
+    margin-top: -5px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    color: #344563;
+  }
+
+  .title-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    padding-left: 0px;
+    margin-left: -47px;
+    width: 421px;
+    color: #7A869A;
+  }
+  .title-section .canopy {
+    list-style-type: none;
+  }
+  .title-section .backend {
+    list-style-type: disc;
+  }
+
+  .title-section .year {
+    list-style-type: disc;
+  }
+
+  .language-section {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 230px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 12px;
+    padding-left: 0;
+    border-radius: 8px;
+  }
+  .language-section li {
+    padding: 4px 12px;
+    background: #ebebff;
+    border-radius: 8px;
+  }
+
+  .about-section input {
+    border: 1px #6070ff solid;
+    width: 170px;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 50px;
+    background-color: white;
+    color: #396DF2;
+  }
+
+  .about-section .social-media-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 28vh;
+    padding-left: 0;
+    margin-top: -10px;
+  }
+
+  .about-section .social-media-icons ul li {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-section .social-media-icons ul li #linkedin{
+  width: 7px; 
+  margin:0;
+  padding: 0;
+}
 }
 
 ul {
