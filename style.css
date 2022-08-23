@@ -742,6 +742,19 @@
   margin:0;
   padding: 0;
 }
+.about-section .language-icons li {
+  display: flex;
+  align-items: flex-start;
+  margin-left: -40px;
+}
+
+.about-section .language-icons li h4{
+  margin-left: 25px;
+  background-color: #f7f7f9;;
+  padding: 20px 80px 5px 20px;
+
+}
+
 }
 
 ul {
