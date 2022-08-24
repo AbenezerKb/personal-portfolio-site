@@ -641,16 +641,16 @@
     /* margin-left: 35px; */
     align-self: center;
   }
-  .about-section h1 {
-    text-align: left;
-    width: 295px;
-    height: 36px;
+  .about-section .get-my-resume {
+    text-align: center;
+   
     font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 44px;
-    color: #172b4d;
+    color: #396DF2;
+
   }
 
   .about-section .about-myself {
@@ -714,6 +714,9 @@
     background: #ebebff;
     border-radius: 8px;
   }
+  .about-section{
+    margin-top: 300px;
+  }
 
   .about-section input {
     border: 1px #6070ff solid;
@@ -746,14 +749,83 @@
   display: flex;
   align-items: flex-start;
   margin-left: -40px;
+  margin-top: 20px;
+  background-color: #f7f7f9;;
+  height: 70px;
+  width: 300px;  
+  border-radius: 5px;
 }
+
+.about-section .language{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  margin-left: 0px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+
+}
+
+.about-section .language li img{
+  margin-top: 25px;
+  margin-left: 7px;
+ height: 15px;
+ width: 15px;
+ }
+
 
 .about-section .language-icons li h4{
   margin-left: 25px;
-  background-color: #f7f7f9;;
-  padding: 20px 80px 5px 20px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 
 }
+.about-section .language-icons li img{
+ margin-top: 10px;
+ margin-left: 7px;
+
+}
+
+.about-myself .right-arrow{
+  height: 15px;
+ width: 15px;
+}
+
+
+.about-section .titles{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.about-section .titles li{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.about-section .titles li img{
+  height: 15px;
+  width: 15px;
+}
+
+
+.about-section .titles li h4{
+  margin-left: 25px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+
+}
+.about-section .titles li img{
+ margin-top: 25px;
+ margin-left: 7px;
+
+}
+
+.about-section .titles{
+  padding-left: 0px;
+  margin-left: 0px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+
+}
+
 
 }
 
