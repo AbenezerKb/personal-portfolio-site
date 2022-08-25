@@ -455,6 +455,7 @@
     display: flex;
     justify-content: space-between;
   }
+
   .about-section .social-media-icons ul li #linkedin {
     width: 7px;
     margin: 0;
@@ -488,6 +489,7 @@
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-size: 14px;
   }
+
   .about-section .language-icons li img {
     margin-top: 10px;
     margin-left: 7px;
@@ -963,6 +965,11 @@
     margin-top: -10px;
   }
 
+  .about-section .titles li {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .about-section .language-icons li {
     display: flex;
     align-items: flex-start;
@@ -1004,6 +1011,7 @@
     margin-left: 25px;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
   }
+
   .about-section .language-icons li img {
     margin-top: 10px;
     margin-left: 7px;
@@ -1021,11 +1029,6 @@
     padding-left: 0;
     margin-left: 0;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
-  }
-
-  .about-section .titles li {
-    display: flex;
-    justify-content: space-between;
   }
 
   .about-section .titles li img {
