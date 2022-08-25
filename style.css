@@ -19,13 +19,6 @@
     display: none;
   }
 
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
-    margin-top: 0;
-  }
-
   .logo {
     padding-top: 0;
     align-self: flex-start;
@@ -35,78 +28,20 @@
     margin-top: 0;
   }
 
-  nav a {
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 20px;
-    text-decoration: none;
-    align-items: center;
-    text-align: center;
-    color: #6070ff;
-    display: flex;
-  }
-
-  body {
-    display: flex;
-    /* justify-content: space-around; */
-    flex-direction: column;
-    height: 65vh;
-  }
-
   .body-container {
     display: flex;
     align-self: center;
-    /* justify-content: space-around; */
     flex-direction: column;
     align-content: center;
-    height: 80vh;
+    height: 45vh;
     width: 80vh;
     padding: 140px 1.5rem 1.5rem;
     margin-bottom: 300px;
   }
 
-  .name {
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 55px;
-    line-height: 45px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.4px;
-    color: #091e42;
-  }
-
-  .detail {
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 28px;
-    color: #344563;
-    width: 55vh;
-  }
-
-  .social-media-connect {
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
-  }
-
   .social-media {
     display: flex;
     justify-content: space-between;
-  }
-
-  .social-media-icons {
-    display: flex;
-    justify-content: space-between;
-    width: 15vh;
   }
 
   header {
@@ -139,21 +74,11 @@
 
   body {
     display: flex;
-    /* justify-content: space-between; */
     flex-direction: column;
     height: 65vh;
     background-image: url("Header-bg.svg");
     background-size: cover;
     background-repeat: no-repeat;
-  }
-
-  .body-container {
-    display: flex;
-    align-self: center;
-    /* justify-content: space-around; */
-    flex-direction: column;
-    align-content: center;
-    height: 45vh;
   }
 
   .name {
@@ -196,6 +121,12 @@
     margin-top: -10px;
   }
 
+  .language-section li {
+    padding: 4px 12px;
+    background: #ebebff;
+    border-radius: 8px;
+  }
+
   .social-media-icons ul li {
     display: flex;
     justify-content: space-between;
@@ -209,8 +140,6 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 80vh;
-    /* margin-left: 35px; */
-    /* align-self: center; */
   }
 
   .second-section h1 {
@@ -269,12 +198,6 @@
     border-radius: 8px;
   }
 
-  .language-section li {
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
-  }
-
   .second-section input {
     border: 1px #6070ff solid;
     width: 200px;
@@ -284,8 +207,6 @@
     background-color: #396df2;
     color: white;
     padding: 5px 20px;
-    /* align-self: flex-end; */
-    /* align-items: flex-start; */
   }
 
   .third-section {
@@ -318,6 +239,7 @@
     margin-left: 50px;
     margin-right: 100px;
   }
+
   .third-section p {
     margin-top: -5px;
     font-family: "Poppins";
@@ -327,38 +249,6 @@
     line-height: 24px;
     text-align: left;
     color: #344563;
-  }
-
-  .title-section .canopy {
-    list-style-type: none;
-  }
-
-  .title-section .backend {
-    list-style-type: disc;
-  }
-
-  .title-section .year {
-    list-style-type: disc;
-  }
-
-  .language-section {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 230px;
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 12px;
-    padding-left: 0;
-    border-radius: 8px;
-  }
-
-  .language-section li {
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
   }
 
   .third-section input {
@@ -409,38 +299,6 @@
     line-height: 24px;
     text-align: left;
     color: #344563;
-  }
-
-  .title-section .canopy {
-    list-style-type: none;
-  }
-
-  .title-section .backend {
-    list-style-type: disc;
-  }
-
-  .title-section .year {
-    list-style-type: disc;
-  }
-
-  .language-section {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 230px;
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 12px;
-    padding-left: 0;
-    border-radius: 8px;
-  }
-
-  .language-section li {
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
   }
 
   .fourth-section input {
@@ -498,43 +356,11 @@
   .title-section {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 0px;
-    padding-left: 0px;
+    margin-top: 0;
+    padding-left: 0;
     margin-left: -47px;
     width: 421px;
     color: #7a869a;
-  }
-
-  .title-section .canopy {
-    list-style-type: none;
-  }
-
-  .title-section .backend {
-    list-style-type: disc;
-  }
-
-  .title-section .year {
-    list-style-type: disc;
-  }
-
-  .language-section {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 230px;
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 12px;
-    padding-left: 0;
-    border-radius: 8px;
-  }
-
-  .language-section li {
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
   }
 
   .fivth-section input {
@@ -560,7 +386,6 @@
 
   .about-section .get-my-resume {
     text-align: center;
-
     font-family: "Poppins";
     font-style: normal;
     font-weight: 700;
@@ -591,48 +416,6 @@
     line-height: 24px;
     text-align: left;
     color: #344563;
-  }
-
-  .title-section {
-    display: none;
-    /* justify-content: space-evenly;
-    margin-top: 0px;
-    padding-left: 0px;
-    margin-left: -47px;
-    width: 421px;
-    color: #7A869A; */
-  }
-  .title-section .canopy {
-    list-style-type: none;
-  }
-  .title-section .backend {
-    list-style-type: disc;
-  }
-
-  .title-section .year {
-    list-style-type: disc;
-  }
-
-  .language-section {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 230px;
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 12px;
-    padding-left: 0;
-    border-radius: 8px;
-  }
-  .language-section li {
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
-  }
-  .about-section {
-    margin-top: 300px;
   }
 
   .about-section input {
@@ -674,8 +457,7 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    margin-left: -40px;
-    /* margin-top: 20px;  */
+    margin-left: -40px;    
     background-color: #f7f7f9;
     height: 100px;
     width: 100px;
@@ -685,8 +467,8 @@
   .about-section .language {
     display: flex;
     justify-content: space-between;
-    padding-left: 0px;
-    margin-left: 0px;
+    padding-left: 0;
+    margin-left: 0;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
   }
 
@@ -739,8 +521,8 @@
   }
 
   .about-section .titles {
-    padding-left: 0px;
-    margin-left: 0px;
+    padding-left: 0;
+    margin-left: 0;
   }
   .contact-section {
     display: flex;
@@ -822,79 +604,22 @@
     margin-top: 0;
   }
 
-  nav a {
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 20px;
-    text-decoration: none;
-    align-items: center;
-    text-align: center;
-    color: #6070ff;
-    display: flex;
-  }
-
-  body {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    height: 65vh;
-  }
-
   .body-container {
     display: flex;
     align-self: center;
     justify-content: space-around;
     flex-direction: column;
     align-content: center;
-    height: 10vh;
     background-image: url("header-shapes-mobile.svg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 140px 1.5rem 1.5rem;
-  }
-
-  .name {
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 55px;
-    line-height: 45px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.4px;
-    color: #091e42;
-  }
-
-  .detail {
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 28px;
-    color: #344563;
-    width: 55vh;
-  }
-
-  .social-media-connect {
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: #7f8cff;
+    padding: 140px 1.5rem 1.5rem;    
+    height: 45vh;
   }
 
   .social-media {
     display: flex;
     justify-content: space-between;
-  }
-
-  .social-media-icons {
-    display: flex;
-    justify-content: space-between;
-    width: 15vh;
   }
 
   header {
@@ -930,18 +655,6 @@
     justify-content: space-between;
     flex-direction: column;
     height: 65vh;
-  }
-
-  .body-container {
-    display: flex;
-    align-self: center;
-    justify-content: space-around;
-    flex-direction: column;
-    align-content: center;
-    height: 45vh;
-    background-image: url("header-shapes-mobile.svg");
-    background-size: cover;
-    background-repeat: no-repeat;
   }
 
   .name {
@@ -1099,38 +812,6 @@
     color: #344563;
   }
 
-  .title-section .canopy {
-    list-style-type: none;
-  }
-
-  .title-section .backend {
-    list-style-type: disc;
-  }
-
-  .title-section .year {
-    list-style-type: disc;
-  }
-
-  .language-section {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 230px;
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 12px;
-    padding-left: 0;
-    border-radius: 8px;
-  }
-
-  .language-section li {
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
-  }
-
   .third-section input {
     border: 1px #6070ff solid;
     width: 130px;
@@ -1173,38 +854,6 @@
     line-height: 24px;
     text-align: left;
     color: #344563;
-  }
-
-  .title-section .canopy {
-    list-style-type: none;
-  }
-
-  .title-section .backend {
-    list-style-type: disc;
-  }
-
-  .title-section .year {
-    list-style-type: disc;
-  }
-
-  .language-section {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 230px;
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 12px;
-    padding-left: 0;
-    border-radius: 8px;
-  }
-
-  .language-section li {
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
   }
 
   .fourth-section input {
@@ -1254,43 +903,11 @@
   .title-section {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 0px;
-    padding-left: 0px;
+    margin-top: 0;
+    padding-left: 0;
     margin-left: -47px;
     width: 421px;
     color: #7a869a;
-  }
-
-  .title-section .canopy {
-    list-style-type: none;
-  }
-
-  .title-section .backend {
-    list-style-type: disc;
-  }
-
-  .title-section .year {
-    list-style-type: disc;
-  }
-
-  .language-section {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 230px;
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 12px;
-    padding-left: 0;
-    border-radius: 8px;
-  }
-
-  .language-section li {
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
   }
 
   .fivth-section input {
@@ -1351,43 +968,13 @@
   .title-section {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 0px;
-    padding-left: 0px;
+    margin-top: 0;
+    padding-left: 0;
     margin-left: -47px;
     width: 421px;
     color: #7a869a;
   }
 
-  .title-section .canopy {
-    list-style-type: none;
-  }
-
-  .title-section .backend {
-    list-style-type: disc;
-  }
-
-  .title-section .year {
-    list-style-type: disc;
-  }
-
-  .language-section {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 230px;
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 12px;
-    padding-left: 0;
-    border-radius: 8px;
-  }
-  .language-section li {
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
-  }
   .about-section {
     margin-top: 300px;
   }
@@ -1435,8 +1022,8 @@
   .about-section .language {
     display: flex;
     justify-content: space-between;
-    padding-left: 0px;
-    margin-left: 0px;
+    padding-left: 0;
+    margin-left: 0;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
   }
 
@@ -1488,8 +1075,8 @@
   }
 
   .about-section .titles {
-    padding-left: 0px;
-    margin-left: 0px;
+    padding-left: 0;
+    margin-left: 0;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
   }
 
@@ -1686,18 +1273,6 @@
     color: #344563;
   }
 
-  .title-section .canopy {
-    list-style-type: none;
-  }
-
-  .title-section .backend {
-    list-style-type: disc;
-  }
-
-  .title-section .year {
-    list-style-type: disc;
-  }
-
   .language-section {
     display: flex;
     justify-content: space-between;
@@ -1762,38 +1337,6 @@
     color: #344563;
   }
 
-  .title-section .canopy {
-    list-style-type: none;
-  }
-
-  .title-section .backend {
-    list-style-type: disc;
-  }
-
-  .title-section .year {
-    list-style-type: disc;
-  }
-
-  .language-section {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 230px;
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 12px;
-    padding-left: 0;
-    border-radius: 8px;
-  }
-
-  .language-section li {
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
-  }
-
   .third-section input {
     border: 1px #6070ff solid;
     width: 130px;
@@ -1836,38 +1379,6 @@
     line-height: 24px;
     text-align: left;
     color: #344563;
-  }
-
-  .title-section .canopy {
-    list-style-type: none;
-  }
-
-  .title-section .backend {
-    list-style-type: disc;
-  }
-
-  .title-section .year {
-    list-style-type: disc;
-  }
-
-  .language-section {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 230px;
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 12px;
-    padding-left: 0;
-    border-radius: 8px;
-  }
-
-  .language-section li {
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
   }
 
   .fourth-section input {
@@ -1917,43 +1428,11 @@
   .title-section {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 0px;
-    padding-left: 0px;
+    margin-top: 0;
+    padding-left: 0;
     margin-left: -47px;
     width: 421px;
     color: #7a869a;
-  }
-
-  .title-section .canopy {
-    list-style-type: none;
-  }
-
-  .title-section .backend {
-    list-style-type: disc;
-  }
-
-  .title-section .year {
-    list-style-type: disc;
-  }
-
-  .language-section {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 230px;
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 12px;
-    padding-left: 0;
-    border-radius: 8px;
-  }
-
-  .language-section li {
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
   }
 
   .fivth-section input {
@@ -2012,8 +1491,8 @@
   .title-section {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 0px;
-    padding-left: 0px;
+    margin-top: 0;
+    padding-left: 0;
     margin-left: -47px;
     width: 421px;
     color: #7a869a;
@@ -2029,26 +1508,6 @@
 
   .title-section .year {
     list-style-type: disc;
-  }
-
-  .language-section {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 230px;
-    margin-top: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 4px 12px;
-    padding-left: 0;
-    border-radius: 8px;
-  }
-
-  .language-section li {
-    padding: 4px 12px;
-    background: #ebebff;
-    border-radius: 8px;
   }
 
   .about-section {
@@ -2098,8 +1557,8 @@
   .about-section .language {
     display: flex;
     justify-content: space-between;
-    padding-left: 0px;
-    margin-left: 0px;
+    padding-left: 0;
+    margin-left: 0;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
   }
 
@@ -2152,20 +1611,9 @@
   }
 
   .about-section .titles {
-    padding-left: 0px;
-    margin-left: 0px;
+    padding-left: 0;
+    margin-left: 0;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
-  }
-
-  .contact-section {
-    display: flex;
-    /* justify-content: space-around; */
-    width: 30vh;
-    flex-direction: column;
-  }
-
-  .contact-section textarea {
-    resize: none;
   }
 
   .contact-section {
@@ -2207,6 +1655,7 @@
   }
 
   .contact-section textarea {
+    resize: none;
     margin-top: 30px;
     resize: none;
     border-radius: 3px;
